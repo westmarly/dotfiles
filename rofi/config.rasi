@@ -1,3 +1,8 @@
+configuration{
+theme: "~/.cache/wal/colors-rofi-dark";
+}
+
+
 * {
     selected-normal-foreground:  rgba ( 249, 249, 249, 100 % );
     foreground:                  rgba ( 196, 203, 212, 100 % );
@@ -28,6 +33,9 @@
     active-background:           rgba ( 29, 31, 33, 17 % );
     selected-active-background:  rgba ( 68, 145, 237, 100 % );
 }
+
+
+
 #window {
     background-color: #515151;
     border:           1;

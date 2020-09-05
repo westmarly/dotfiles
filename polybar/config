@@ -17,10 +17,10 @@
 ;==========================================================
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
+background = ${xrdb:color0:#222}
 background-alt = #515151
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = ${xrdb:color7:#222}
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -42,7 +42,7 @@ line-size = 3
 line-color = #f00
 
 border-size = 4
-border-color = #515151
+border-color = #00000000
 
 padding-left = 1
 padding-right = 2
@@ -53,6 +53,7 @@ module-margin-right = 2
 font-0 = Ubuntu:pixelsize=10.5;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
+font-3 = Font Awesome 5 Free:pixelsize10.5;1
 
 modules-left = bspwm i3
 modules-center = mpd date
@@ -60,7 +61,7 @@ modules-right =  xbacklight pulseaudio memory cpu wlan eth temperature powermenu
 
 tray-position = right
 tray-padding = 2
-;tray-background = #515151
+;tray-background = ${colors.background}
 
 ;wm-restack = bspwm
 ;wm-restack = i3

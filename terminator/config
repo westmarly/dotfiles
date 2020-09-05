@@ -4,8 +4,8 @@
 [keybindings]
 [profiles]
   [[default]]
-    show-scrollbar = False
     icon_bell = False
+    background_darkness = 0.4
     background_type = transparent
     cursor_color = "#aaaaaa"
     show_titlebar = False
