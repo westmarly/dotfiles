@@ -22,7 +22,9 @@ bspc rule -a Screenkey manage=off
 sxhkd &
 polybar example &
 nm-applet &
-feh -bg-scale  $HOME/Pictures/wallpaper/wallpaper0.jpg &
+wal -i $HOME/Pictures/wallpaper/wallpaper0.jpg
+#feh -bg-scale  $HOME/Pictures/wallpaper/wallpaper0.jpg &
+#./$HOME/.fehbg &
 
 
 
