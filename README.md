@@ -1,3 +1,3 @@
 # dotfiles
 
-pywal needs to be run for the rofi theme.
+requires pywal, feh, bspwm, sxhkd, network manager, rofi, compton
